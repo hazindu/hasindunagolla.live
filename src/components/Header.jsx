@@ -58,7 +58,7 @@ export default function Header() {
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F0F5FF] mb-8">
               <div className="w-2 h-2 rounded-full bg-brand-primary"></div>
               <span className="text-xs font-bold text-brand-primary tracking-wide">
-                Software Engineering Undergraduate
+                Intern Software Engineer
               </span>
             </div>
 
@@ -168,24 +168,16 @@ export default function Header() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M12 14l9-5-9-5-9 5 9 5z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                      d="M9 7V6a3 3 0 013-3h0a3 3 0 013 3v1m-9 0h12a2 2 0 012 2v9a2 2 0 01-2 2H6a2 2 0 01-2-2V9a2 2 0 012-2z"
                     />
                   </svg>
                 </div>
                 <div>
                   <p className="text-[11px] font-bold text-brand-dark uppercase tracking-wider mb-0.5">
-                    Undergraduate
+                    Intern SWE
                   </p>
                   <p className="text-xs text-gray-500 font-medium">
-                    The Open University
-                    <br />
-                    of Sri Lanka
+                    HadesReality, Colombo
                   </p>
                 </div>
               </div>

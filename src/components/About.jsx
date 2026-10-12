@@ -16,11 +16,11 @@ export default function About() {
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-8 text-justify">
-              I am a Software Engineering undergraduate passionate about
-              building scalable, intelligent, and user-focused applications. I
-              have hands-on experience in Full-Stack Development, Data
-              Analytics, and Cloud deployments, with a strong focus on
-              problem-solving and software quality.
+              I am an Intern Software Engineer passionate about building
+              scalable, intelligent, and user-focused applications. I have
+              hands-on experience in Full-Stack Development, Data Analytics,
+              and Cloud deployments, with a strong focus on problem-solving
+              and software quality.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-4 mb-10">
@@ -124,15 +124,15 @@ export default function About() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                      d="M9 7V6a3 3 0 013-3h0a3 3 0 013 3v1m-9 0h12a2 2 0 012 2v9a2 2 0 01-2 2H6a2 2 0 01-2-2V9a2 2 0 012-2z"
                     />
                   </svg>
                 </div>
                 <div>
                   <h4 className="text-sm font-semibold text-brand-dark mb-0.5">
-                    Availability
+                    Work
                   </h4>
-                  <p className="text-sm text-gray-500">Open to Opportunities</p>
+                  <p className="text-sm text-gray-500">Intern SWE at HadesReality</p>
                 </div>
               </div>
             </div>

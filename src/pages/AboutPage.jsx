@@ -72,7 +72,8 @@ export default function AboutPage() {
                     <h1 className="text-4xl md:text-5xl font-extrabold text-brand-dark mb-4">Background & Experience</h1>
                     <p className="text-gray-500 text-lg leading-relaxed max-w-2xl text-justify">
                         Building Intelligent, Scalable, and Reliable Software Solutions
-                        As a Software Engineering undergraduate, I combine my skills in Full-Stack Development, AI/ML, and Cloud infrastructure to solve complex problems. From designing backend systems and analyzing data to ensuring software quality and deploying applications, I am passionate about creating production-ready, data-driven systems that deliver real value.                    </p>
+                        As an Intern Software Engineer, I combine my skills in Full-Stack Development, AI/ML, and Cloud infrastructure to solve complex problems. From designing backend systems and analyzing data to ensuring software quality and deploying applications, I am passionate about creating production-ready, data-driven systems that deliver real value.
+                    </p>
                 </div>
 
                 {/* Personal details */}
