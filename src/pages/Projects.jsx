@@ -12,7 +12,7 @@ export default function Projects() {
             category: 'AI / ML',
             description: 'A document-based RAG system using DeepSeek, BGE embeddings, and FAISS to answer questions from PDF documents.',
             tech: ['Python', 'Jupyter'],
-            link: 'https://github.com/lakzexe/pdf-rag-deepseek',
+            link: 'https://github.com/hazindu/pdf-rag-deepseek',
         },
         {
             name: 'Sinhala Spam Detection',
@@ -24,7 +24,7 @@ export default function Projects() {
             category: 'AI / ML',
             description: 'NLP-based spam detection model for binary text classification on a dataset of 4,000+ samples.',
             tech: ['Python', 'Jupyter'],
-            link: 'https://github.com/lakzexe/sinhala-spam-detection-model',
+            link: 'https://github.com/hazindu/sinhala-spam-detection-model',
         },
         {
             name: 'Telegram Auto Reactor',
@@ -36,7 +36,7 @@ export default function Projects() {
             category: 'Bot / Automation',
             description: 'A lightweight Telegram bot that automatically reacts to every message with random emojis.',
             tech: ['Python'],
-            link: 'https://github.com/lakzexe/telegram-auto-reactor',
+            link: 'https://github.com/hazindu/telegram-auto-reactor',
         },
         {
             name: 'HasiiChatBot',
@@ -48,7 +48,7 @@ export default function Projects() {
             category: 'Bot / Automation',
             description: 'A fast, self-learning Telegram chatbot built with Golang and MongoDB that generates natural replies.',
             tech: ['Go', 'MongoDB'],
-            link: 'https://github.com/lakzexe/HasiiChatBot',
+            link: 'https://github.com/hazindu/HasiiChatBot',
         },
         {
             name: 'Stamps Diary',
@@ -60,7 +60,7 @@ export default function Projects() {
             category: 'Web Application',
             description: 'Digital stamp collection and management platform.',
             tech: ['HTML', 'CSS', 'JavaScript'],
-            link: 'https://github.com/lakzexe/Stamps-Diary',
+            link: 'https://github.com/hazindu/Stamps-Diary',
         },
         {
             name: 'Admin Mention Bot',
@@ -72,7 +72,7 @@ export default function Projects() {
             category: 'Bot / Automation',
             description: 'A fully configurable Telegram group admin mention bot built in Python to instantly notify admins.',
             tech: ['Python'],
-            link: 'https://github.com/lakzexe/telegram-admin-mention-bot',
+            link: 'https://github.com/hazindu/telegram-admin-mention-bot',
         },
         {
             name: 'E-Commerce System',
@@ -84,7 +84,7 @@ export default function Projects() {
             category: 'Web Application',
             description: 'A simple e-commerce form built using HTML, PHP, MySQL, and Bootstrap to insert and search data.',
             tech: ['HTML', 'PHP', 'MySQL'],
-            link: 'https://github.com/lakzexe/php-mysql-e-commerce',
+            link: 'https://github.com/hazindu/php-mysql-e-commerce',
         },
         {
             name: 'Library Management System',
@@ -96,7 +96,7 @@ export default function Projects() {
             category: 'CLI Application',
             description: 'Command-line based library management system with file persistence.',
             tech: ['Python'],
-            link: 'https://github.com/lakzexe/Python-Library-Management-System',
+            link: 'https://github.com/hazindu/Python-Library-Management-System',
         },
         {
             name: 'React Native Login',
@@ -108,7 +108,7 @@ export default function Projects() {
             category: 'Mobile Application',
             description: 'Authentication flow implementation including Login and Signup screens for mobile applications.',
             tech: ['React Native', 'JavaScript', 'Android Studio'],
-            link: 'https://github.com/lakzexe/Login-Signup-ReactNative',
+            link: 'https://github.com/hazindu/Login-Signup-ReactNative',
         },
         {
             name: 'BOC Mobile Banking App Design',
@@ -275,7 +275,7 @@ export default function Projects() {
                                 Website
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                             </a>
-                            <a href="https://github.com/lakzexe/HasiiMusicBot" target="_blank" rel="noreferrer" className="px-7 py-3.5 rounded-xl border-2 border-gray-200 hover:border-brand-primary text-gray-700 hover:text-brand-primary bg-transparent font-bold text-sm transition-colors flex items-center gap-2">
+                            <a href="https://github.com/hazindu/HasiiMusicBot" target="_blank" rel="noreferrer" className="px-7 py-3.5 rounded-xl border-2 border-gray-200 hover:border-brand-primary text-gray-700 hover:text-brand-primary bg-transparent font-bold text-sm transition-colors flex items-center gap-2"> 
                                 GitHub
                                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" /></svg>
                             </a>

@@ -16,7 +16,7 @@ export default function Header() {
     {
       name: "GitHub",
       icon: <RxGithubLogo className="w-6 h-6" aria-hidden="true" />,
-      link: "https://github.com/lakzexe",
+      link: "https://github.com/hazindu",
     },
     {
       name: "X",

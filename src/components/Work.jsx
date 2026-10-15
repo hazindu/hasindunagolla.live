@@ -90,7 +90,7 @@ export default function Work({ hideHeading = false }) {
       description:
         "A document-based RAG system using DeepSeek to answer questions from PDF documents.",
       tech: ["Python", "Google Colab", "PyTorch"],
-      link: "https://github.com/lakzexe/pdf-rag-deepseek",
+      link: "https://github.com/hazindu/pdf-rag-deepseek",
     },
     {
       name: "Sinhala Scam Detection Model",
@@ -113,7 +113,7 @@ export default function Work({ hideHeading = false }) {
       description:
         "Real-time NLP based scam detection model for low context languages using Python.",
       tech: ["Python", "Google Colab"],
-      link: "https://github.com/lakzexe/sinhala-spam-detection-model",
+      link: "https://github.com/hazindu/sinhala-spam-detection-model",
     },
 
     {
@@ -137,7 +137,7 @@ export default function Work({ hideHeading = false }) {
       description:
         "Command-line based library management system with file persistence.",
       tech: ["Python"],
-      link: "https://github.com/lakzexe/Python-Library-Management-System",
+      link: "https://github.com/hazindu/Python-Library-Management-System",
     },
     {
       name: "MediMate",
