@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Projects() {
     const work = [
@@ -218,12 +219,14 @@ export default function Projects() {
                         </div>
 
                         <h2 className="text-3xl lg:text-4xl font-extrabold text-brand-dark mb-3 leading-tight">
-                            HasiiMusic &ndash; Telegram Music Bot
+                            <Link to="/hasiimusicbot" className="hover:text-brand-primary transition-colors">
+                                HasiiMusicBot &ndash; Telegram Music Bot
+                            </Link>
                         </h2>
-                        <p className="text-brand-primary font-bold text-xs uppercase tracking-wider mb-6">Web Application</p>
+                        <p className="text-brand-primary font-bold text-xs uppercase tracking-wider mb-6">Telegram Bot &middot; Open Source</p>
 
                         <p className="text-gray-500 text-base leading-relaxed mb-8 text-justify">
-                            ˹ʜᴀꜱɪɪ ꭙ ᴍᴜꜱɪᴄ˼ ♪ is an <span className="text-color-black font-bold">open-source</span> Telegram bot built in Python. It plays music in voice chats from YouTube, Spotify, and live radio, while Pyrogram and PyTgCalls handle the Telegram integration and playback.
+                            HasiiMusicBot (˹ʜᴀꜱɪɪ ꭙ ᴍᴜꜱɪᴄ˼ ♪) is an <span className="text-color-black font-bold">open-source</span> Telegram music bot I created in Python. It plays music in Telegram voice chats from YouTube, Spotify, and live radio, while Pyrogram and PyTgCalls handle the Telegram integration and playback.
                         </p>
 
                         {/* <div className="grid grid-cols-2 gap-4 mb-8">
@@ -266,7 +269,11 @@ export default function Projects() {
                             ))}
                         </div>
 
-                        <div className="flex items-center gap-6">
+                        <div className="flex flex-wrap items-center gap-3">
+                            <Link to="/hasiimusicbot" className="px-7 py-3.5 rounded-xl bg-brand-primary/10 text-brand-primary font-bold text-sm hover:bg-brand-primary/20 transition-colors flex items-center gap-2">
+                                Project Details
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                            </Link>
                             <a href="https://t.me/HasiMusicBot" target="_blank" rel="noreferrer" className="px-7 py-3.5 rounded-xl bg-brand-dark text-white font-bold text-sm hover:opacity-90 transition-opacity flex items-center gap-2 shadow-lg shadow-brand-dark/20">
                                 Live Bot
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
@@ -291,7 +298,7 @@ export default function Projects() {
                                 <div className="w-2.5 h-2.5 rounded-full bg-amber-400"></div>
                                 <div className="w-2.5 h-2.5 rounded-full bg-green-400"></div>
                             </div>
-                            <img src="/assets/hasii-music.webp" alt="HasiiMusic Bot" className="w-full h-auto rounded-xl border border-gray-200 shadow-sm" />
+                            <img src="/assets/hasii-music.webp" alt="HasiiMusicBot Telegram music bot by Hasindu Nagolla" className="w-full h-auto rounded-xl border border-gray-200 shadow-sm" />
                         </div>
                     </div>
                 </div>

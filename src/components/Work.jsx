@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Work({ hideHeading = false }) {
   const work = [
     {
-      name: "Telegram Bot & Website",
+      name: "HasiiMusicBot",
       icon: (
         <svg
           className="w-8 h-8 text-brand-dark"
@@ -22,7 +22,7 @@ export default function Work({ hideHeading = false }) {
       ),
       category: "Bot / Automation",
       description:
-        "Telegram music bot with advanced playback, queues, and web control panel.",
+        "Open-source Telegram music bot I created for voice chats, with advanced playback, queues, live radio, and a web control panel.",
       tech: [
         "Python",
         "Pyrogram",
@@ -33,7 +33,7 @@ export default function Work({ hideHeading = false }) {
         "Docker",
         "Cloud Environments",
       ],
-      link: "https://hasiimusic.hasindunagolla.live/",
+      link: "/hasiimusicbot",
     },
 
     {
@@ -189,15 +189,23 @@ export default function Work({ hideHeading = false }) {
         )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
-          {work.map((project, index) => (
-            <a
+          {work.map((project, index) => {
+            const isInternal = project.link?.startsWith("/");
+            const CardLink = isInternal ? Link : "a";
+            const linkProps = isInternal
+              ? { to: project.link }
+              : {
+                  href: project.link || "#",
+                  target: project.link ? "_blank" : undefined,
+                  rel: project.link ? "noreferrer" : undefined,
+                  onClick: (event) => {
+                    if (!project.link) event.preventDefault();
+                  },
+                };
+            return (
+            <CardLink
               key={project.name}
-              href={project.link || "#"}
-              target={project.link ? "_blank" : undefined}
-              rel={project.link ? "noreferrer" : undefined}
-              onClick={(event) => {
-                if (!project.link) event.preventDefault();
-              }}
+              {...linkProps}
               className="group flex flex-col sm:flex-row items-start sm:items-center p-6 bg-white border border-gray-100 rounded-[1.5rem] hover:shadow-xl hover:border-gray-200 transition-all duration-300 animate-on-scroll is-visible"
               style={{ animationDelay: `${(index % 2) * 0.1}s` }}
             >
@@ -250,8 +258,9 @@ export default function Work({ hideHeading = false }) {
                   />
                 </svg>
               </div>
-            </a>
-          ))}
+            </CardLink>
+            );
+          })}
         </div>
 
         {!hideHeading && (

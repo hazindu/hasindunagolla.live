@@ -3,6 +3,7 @@ import { useLocation, Outlet } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import LenisScroll from '../components/LenisScroll';
+import Seo from '../components/Seo';
 
 export default function MainLayout() {
     const location = useLocation();
@@ -33,6 +34,7 @@ export default function MainLayout() {
 
     return (
         <div id="top" className="font-inter text-brand-dark bg-white overflow-x-hidden selection:bg-brand-primary/20 selection:text-brand-primary min-h-screen transition-colors duration-300 flex flex-col">
+            <Seo />
             <LenisScroll />
             <Navbar />
 

@@ -1,20 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import fs from 'fs'
-import path from 'path'
+import seoPlugin from './scripts/seo-plugin.js'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    {
-      name: 'copy-index-to-404',
-      writeBundle() {
-        fs.copyFileSync(
-          path.resolve(__dirname, 'dist', 'index.html'),
-          path.resolve(__dirname, 'dist', '404.html')
-        )
-      }
-    }
+    // Writes per-route HTML (with meta tags and JSON-LD), 404.html,
+    // sitemap.xml and robots.txt. See scripts/seo-plugin.js.
+    seoPlugin(),
   ],
 })
